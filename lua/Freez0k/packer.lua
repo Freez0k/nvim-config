@@ -45,7 +45,9 @@ return require('packer').startup(function(use)
   use { 'folke/noice.nvim' }
   use { 'MunifTanjim/nui.nvim' }
   use {
-  'nvim-lualine/lualine.nvim',
-  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
-}
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
+
+  use 'rcarriga/nvim-notify'
 end)

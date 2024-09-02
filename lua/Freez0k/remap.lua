@@ -1,3 +1,5 @@
+local vim = vim
+
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.keymap.set("i", "<leader>ew", "<Esc>")
@@ -16,8 +18,8 @@ vim.keymap.set("n", "<leader>sv", "<C-w>v")
 vim.keymap.set("n", "<leader>sh", "<C-w>s")
 vim.keymap.set("n", "<leader>sx", ":close<CR>")
 vim.keymap.set("n", "<leader>gbl", ":GitBlameLineToggle<CR>")
+vim.keymap.set("n", "<leader>t", ":NvimTreeToggle<CR>")
 
 vim.keymap.set("v", "<leader>p", "_dP")
 vim.keymap.set("v", "<leader>c", "\"*y")
 vim.keymap.set("v", "<leader>y", "\"_y")
-

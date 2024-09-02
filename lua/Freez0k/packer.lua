@@ -50,4 +50,11 @@ return require('packer').startup(function(use)
   }
 
   use 'rcarriga/nvim-notify'
-end)
+  use 'saadparwaiz1/cmp_luasnip'
+  use "rafamadriz/friendly-snippets"
+  use {
+    'nvim-tree/nvim-tree.lua',
+    requires = {
+      'nvim-tree/nvim-web-devicons', -- optional
+    },
+  }end)

@@ -15,7 +15,7 @@ class Hello
 
   def update(params)
     model = Model.update(params)
-    
     model.attributes
   end
 end
+
